@@ -8,12 +8,12 @@ function Promo() {
                 <div className={styles.promo_text}>
 
                     <div className={styles.promo_title}>
-                        <span className={styles.highlight}>
+                        <span className="highlight">
                             <span>LET’S</span>
                         </span>
                         EXPLORE
 
-                        <span className={`${styles.highlight} ${styles.highlight_yellow}`}>
+                        <span className={`${"highlight"} ${"highlight_yellow"}`}>
                             <span>UNIQUE</span>
                         </span>
 
