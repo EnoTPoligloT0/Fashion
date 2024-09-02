@@ -13,7 +13,7 @@ function Promo() {
                         </span>
                         EXPLORE
 
-                        <span className={`${"highlight"} ${"highlight_yellow"}`}>
+                        <span className={`${"highlight"} ${"highlightYellow"}`}>
                             <span>UNIQUE</span>
                         </span>
 
@@ -25,7 +25,7 @@ function Promo() {
                     </div>
 
                     <div className={styles.promoBtnWrapper}>
-                        <a href="#!" className={styles.promo_btn}>
+                        <a href="#!" className={styles.promoBtn}>
                             Shop Now
                         </a>
                     </div>
