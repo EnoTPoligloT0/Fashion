@@ -4,10 +4,10 @@ import promoImg from '../../img/images/promo-brand.png'
 function Promo() {
     return (<section className={styles.promo}>
         <div className="container">
-            <div className={styles.promo_content}>
-                <div className={styles.promo_text}>
+            <div className={styles.promoContent}>
+                <div className={styles.promoText}>
 
-                    <div className={styles.promo_title}>
+                    <div className={styles.promoTitle}>
                         <span className="highlight">
                             <span>LET’S</span>
                         </span>
@@ -20,18 +20,18 @@ function Promo() {
                         CLOTHES.
                     </div>
 
-                    <div className={styles.promo_desc}>
+                    <div className={styles.promoDesc}>
                         Live for Influential and Innovative fashion!
                     </div>
 
-                    <div className={styles.promo_btn_wrapper}>
+                    <div className={styles.promoBtnWrapper}>
                         <a href="#!" className={styles.promo_btn}>
                             Shop Now
                         </a>
                     </div>
 
                 </div>
-                <div className={styles.promo_img}>
+                <div className={styles.promoImg}>
                     <img src={promoImg} alt="promo"/>
                 </div>
             </div>

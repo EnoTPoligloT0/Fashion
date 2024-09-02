@@ -10,7 +10,7 @@ function Brands() {
     return (
         <section className={styles.brands}>
             <div className="container">
-                <ul className={styles.brands_list}>
+                <ul className={styles.brandsList}>
                     <li><a href="#!"><img src={hmImg} alt=""/></a></li>
                     <li><a href="#!"><img src={obeyImg} alt=""/></a></li>
                     <li><a href="#!"><img src={shopifyImg} alt=""/></a></li>

@@ -8,10 +8,10 @@ function Arrivals() {
     return (
         <section className={styles.arrivals}>
             <div className="container">
-                <div className={styles.arrivals_header}>
-                    <h2 className={styles.title_2}>NEW ARRIVALS</h2>
+                <div className={styles.arrivalsHeader}>
+                    <h2 className={styles.title2}>NEW ARRIVALS</h2>
                 </div>
-                <div className={styles.arrivals_cards}>
+                <div className={styles.arrivalsCards}>
                     <div><Card title={"Hoodies & Sweatshirt"} img={cat01Img} /></div>
                     <div><Card title={"Coats & Parkas"} img={cat02Img}/></div>
                     <div><Card title={"Tees & T-Shirt"} img={cat03Img}/></div>

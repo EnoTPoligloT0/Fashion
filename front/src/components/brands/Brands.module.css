@@ -3,7 +3,7 @@
     padding: 60px 0 55px;
 }
 
-.brands_list{
+.brandsList{
     display: flex;
     column-gap: 120px;
     mix-blend-mode: multiply;

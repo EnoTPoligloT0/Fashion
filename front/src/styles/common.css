@@ -36,7 +36,7 @@ body{
     transform: rotate(-2deg);
 }
 
-.highlight_yellow::before{
+.highlightYellow::before{
     background-color: var(--yellow);
     right: -120px;
 }

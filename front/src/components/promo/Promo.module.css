@@ -2,7 +2,7 @@
     margin-bottom: 63px;
 }
 
-.promo_content{
+.promoContent{
     display: flex;
     column-gap: 24px;
     
@@ -15,7 +15,7 @@
 }
 
 
-.promo_title{
+.promoTitle{
     max-width: 480px;
     font-weight: 900;
     font-size: 96px;
@@ -25,7 +25,7 @@
     margin-bottom: 40px;
 }
 
-.promo_desc{
+.promoDesc{
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -35,13 +35,13 @@
     color: #191818;
 }
 
-.promo_btn_wrapper {
+.promoBtnWrapper {
     
 }
 
 
 
-.promo_btn {
+.promoBtn {
     padding: 20px 40px;
 
     background-color: #000;

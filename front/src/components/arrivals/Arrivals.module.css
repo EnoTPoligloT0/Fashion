@@ -3,17 +3,17 @@
     padding-bottom: 190px;
 }
 
-.arrivals_header{
+.arrivalsHeader{
     margin-bottom: 100px;
 }
 
-.arrivals_cards{
+.arrivalsCards{
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
 }
 
-.title_2{
+.title2{
     display: inline-block;
     position: relative;
 
@@ -25,7 +25,7 @@
     color: #000000;
 }
 
-.title_2::after{
+.title2::after{
     content: "";
     position: absolute;
     z-index: -1; 

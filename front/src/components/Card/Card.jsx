@@ -7,21 +7,21 @@ const Card = ({title, img}) => {
     return (
         <div className={styles.card}>
 
-            <a href="" className={styles.card_link}></a>
+            <a href="" className={styles.cardLink}></a>
             
-            <img className={styles.card_img} src={img} alt="Category ..."/>
+            <img className={styles.cardImg} src={img} alt="Category ..."/>
         
-            <div className={styles.card_body}>
+            <div className={styles.cardBody}>
 
-                <div className={styles.card_text}>
+                <div className={styles.cardText}>
                     
-                    <div className={styles.card_title}>{title}</div>
+                    <div className={styles.cardTitle}>{title}</div>
                         
-                    <div className={styles.card_muted}>Explore Now!</div>
+                    <div className={styles.cardMuted}>Explore Now!</div>
                         
                 </div>
 
-                <div className={styles.card_icon}>
+                <div className={styles.cardIcon}>
                     <img src={arrowImg} alt="Open"/>
                 </div>
                 
