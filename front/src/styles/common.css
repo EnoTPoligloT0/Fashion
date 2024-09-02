@@ -1,6 +1,7 @@
 :root{
     --textColor: #000;
     --yellow: #E6C744;
+    --grey: #7f7f7f;
 }
 
 body{
@@ -12,4 +13,30 @@ body{
     max-width: 1720px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.highlight{
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span{
+    position: relative;
+}
+
+.highlight::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:-34px;
+    right: -160px;
+    background-color: #FFFFFF;
+    transform: rotate(-2deg);
+}
+
+.highlight_yellow::before{
+    background-color: var(--yellow);
+    right: -120px;
 }
