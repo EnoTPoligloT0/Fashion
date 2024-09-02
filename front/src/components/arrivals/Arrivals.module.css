@@ -1,0 +1,38 @@
+.arrivals{
+    padding: 70px;
+    padding-bottom: 190px;
+}
+
+.arrivals_header{
+    margin-bottom: 100px;
+}
+
+.arrivals_cards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.title_2{
+    display: inline-block;
+    position: relative;
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+
+.title_2::after{
+    content: "";
+    position: absolute;
+    z-index: -1; 
+    right: 0px;
+    bottom: 0px;
+    width: 190px;
+    height: 32px;
+    
+    background-image: url("src/img/icons/yellow-dec.svg");
+}
