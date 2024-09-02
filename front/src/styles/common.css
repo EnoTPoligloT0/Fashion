@@ -14,20 +14,28 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
+.containerFHD{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 
 .highlight{
     position: relative;
     display: inline-block;
+    z-index: 0;
 }
 
 .highlight span{
     position: relative;
+    z-index: 1;
 }
 
 .highlight::before{
     content: "";
     display: block;
     position: absolute;
+    z-index: -1;
     top:0;
     bottom: 0;
     left:-34px;
@@ -39,4 +47,8 @@ body{
 .highlightYellow::before{
     background-color: var(--yellow);
     right: -120px;
+}
+
+.highlightWhite::before{
+    right: -50px
 }
