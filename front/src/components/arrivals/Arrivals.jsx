@@ -9,7 +9,7 @@ function Arrivals() {
         <section className={styles.arrivals}>
             <div className="container">
                 <div className={styles.arrivalsHeader}>
-                    <h2 className={styles.title2}>NEW ARRIVALS</h2>
+                    <h2 className="title2">NEW ARRIVALS</h2>
                 </div>
                 <div className={styles.arrivalsCards}>
                     <div><Card title={"Hoodies & Sweatshirt"} img={cat01Img} /></div>
