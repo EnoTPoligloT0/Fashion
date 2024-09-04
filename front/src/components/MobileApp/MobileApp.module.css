@@ -1,0 +1,98 @@
+.mobileContainer{
+    max-width: 1640px;
+    margin: 0px auto;
+}
+
+.mobileContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobileText{
+    max-width: 550px;
+    padding: 181px 300px 147px 0;
+}
+
+.mobileTitle{
+    margin-bottom: 41px;
+    max-width: 550px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+
+.mobileDesc{
+    margin-bottom: 65px;
+    width: 75%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 146%;
+    letter-spacing: -0.04em;
+    color: #7c7c7c;
+}
+
+.mobileIcons{
+    width: 80%;
+}
+
+.mobileList {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.mobileList li {
+    display: inline-block;
+    width: 48%;
+}
+
+.mobileList img {
+    width: 100%;
+    height: auto;
+}
+.mobileImg{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+
+/*.mobileContainer {*/
+/*    max-width: 1640px;*/
+/*    margin: 0 auto;*/
+/*    display: flex; !* Использование Flexbox для выравнивания *!*/
+/*    justify-content: space-between; !* Распределяет пространство между элементами *!*/
+/*    align-items: center; !* Выравнивание по вертикали по центру *!*/
+/*}*/
+
+/*!* Контент внутри контейнера *!*/
+/*.mobileContent {*/
+/*    display: flex; !* Использование Flexbox для выравнивания *!*/
+/*    justify-content: space-between; !* Распределяет пространство между текстом/иконками и телефоном *!*/
+/*    align-items: center; !* Выравнивание по вертикали по центру *!*/
+/*    width: 100%; !* Занимает полную ширину контейнера *!*/
+/*}*/
+
+/*!* Блок текста и иконок *!*/
+/*.mobileText {*/
+/*    flex: 1; !* Позволяет блоку занимать доступное пространство *!*/
+/*    padding-right: 20px; !* Добавляет пространство между текстом и изображением телефона *!*/
+/*}*/
+
+/*!* Блок изображения телефона *!*/
+/*.mobileImg {*/
+/*    flex: 1; !* Позволяет блоку занимать доступное пространство *!*/
+/*    text-align: right; !* Выравнивание изображения телефона по правому краю *!*/
+/*}*/
+
+/*!* Изображение телефона *!*/
+/*.mobileImg img {*/
+/*    max-width: 100%; !* Обеспечивает правильное масштабирование изображения *!*/
+/*    height: auto; !* Сохраняет пропорции изображения *!*/
+/*}*/
