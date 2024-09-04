@@ -1,0 +1,14 @@
+.favorites{
+    margin-bottom: 190px;
+}
+
+.favoritesHeader{
+    margin-bottom: 220px;
+}
+
+.favoritesCards{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    column-gap: 30px;
+}
