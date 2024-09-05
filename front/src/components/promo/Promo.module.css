@@ -1,0 +1,56 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promoContent{
+    display: flex;
+    column-gap: 24px;
+    
+    padding-top: 68px;
+    padding-left: 120px;
+    
+    border-radius: 60px;
+    background-color: #F5F5F5;
+
+}
+
+
+.promoTitle{
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+    color: #000000;
+    overflow-wrap: break-word;
+    margin-bottom: 40px;
+}
+
+.promoDesc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    margin-bottom: 32px;
+    color: #191818;
+}
+
+.promoBtnWrapper {
+    
+}
+
+
+
+.promoBtn {
+    padding: 20px 40px;
+
+    background-color: #000;
+    border-radius: 10px;
+    
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}

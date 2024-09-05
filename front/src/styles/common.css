@@ -1,0 +1,78 @@
+:root{
+    --textColor: #000;
+    --yellow: #E6C744;
+    --grey: #7f7f7f;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+
+.container{
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.containerFHD{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+.highlight{
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+.highlight span{
+    position: relative;
+    z-index: 1;
+}
+
+.highlight::before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top:0;
+    bottom: 0;
+    left:-34px;
+    right: -160px;
+    background-color: #FFFFFF;
+    transform: rotate(-2deg);
+}
+
+.highlightYellow::before{
+    background-color: var(--yellow);
+    right: -120px;
+}
+
+.highlightWhite::before{
+    right: -50px
+}
+
+.title2{
+    display: inline-block;
+    position: relative;
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+
+.title2::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    bottom: 0px;
+    width: 190px;
+    height: 32px;
+
+    background-image: url("src/img/icons/yellow-dec.svg");
+}
