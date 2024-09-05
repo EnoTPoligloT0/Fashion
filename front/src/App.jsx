@@ -6,6 +6,7 @@ import Sale from "./components/Sale/Sale.jsx";
 import Favorite from "./components/Favorite/Favorite.jsx";
 import MobileApp from "./components/MobileApp/MobileApp.jsx";
 import Newsletter from "./components/Newsletter/Newsletter.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <Favorite/>
             <MobileApp/>
             <Newsletter/>
+            <Footer/>
         </>)
 }
 
