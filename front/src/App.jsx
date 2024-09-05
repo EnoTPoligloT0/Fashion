@@ -3,6 +3,9 @@ import Promo from "./components/promo/Promo.jsx";
 import Brands from "./components/brands/Brands.jsx";
 import Arrivals from "./components/arrivals/Arrivals.jsx";
 import Sale from "./components/Sale/Sale.jsx";
+import Favorite from "./components/Favorite/Favorite.jsx";
+import MobileApp from "./components/MobileApp/MobileApp.jsx";
+import Newsletter from "./components/Newsletter/Newsletter.jsx";
 
 function App() {
     return (
@@ -12,6 +15,9 @@ function App() {
             <Brands/>
             <Arrivals/>
             <Sale/>
+            <Favorite/>
+            <MobileApp/>
+            <Newsletter/>
         </>)
 }
 
